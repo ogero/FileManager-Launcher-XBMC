@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.launch.filemanager"
+       name="FileManager"
+       version="0.0.1"
+       provider-name="Gerónimo Oñativia">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.script"
+               library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A script that launchs file manager</summary>
+        <description lang="en">Intended for skins that not support custom file manager shortcut but allows addons shortcuts.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website></website>
+        <source>https://github.com/ogero/FileManager-Launcher-XBMC</source>
+        <email>geronimox@gmail.com</email>
+    </extension>
+</addon>

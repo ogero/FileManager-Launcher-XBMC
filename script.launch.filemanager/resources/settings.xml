@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="launch_path" type="folder" label="32001" default=""/>
+</settings>
